@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 600px) {
+  .root {
+    font-size: 1.5em;
+  }
+}
