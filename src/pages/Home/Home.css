@@ -1,0 +1,19 @@
+.root {
+  margin: 2em;
+  padding: 2em;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 5ms ease-in;
+}

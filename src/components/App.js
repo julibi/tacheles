@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Header/Header';
-import Navigation from './Navigation/Navigation';
-import Home from './Home/Home';
-import Who from './Who/Who';
-import NotFound from './NotFound/NotFound';
+import Navigation from '../pages/Navigation/Navigation';
+import Home from '../pages/Home/Home';
+import Who from '../pages/Who/Who';
+import NotFound from '../pages/NotFound/NotFound';
 
 import style from './App.css';
 
@@ -44,3 +44,5 @@ class App extends Component {
 }
 
 export default App;
+
+//before Navigation and Switch were wrapped by 

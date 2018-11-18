@@ -1,0 +1,11 @@
+.root {
+  /* background-color: #fbf5e9;  */
+  font-weight: 340; 
+  letter-spacing: initial;
+  margin: 3em 0;
+}
+
+.secondTitle {
+  font-style: italic;
+  font-weight: 300; 
+}
